@@ -3,6 +3,7 @@ import '@fontsource/inter';
 import Header from "./components/Header";
 import GeneralImage from "./components/GeneralImage";
 import Invitation from "./components/Invitation";
+import AddToCalendar from "./components/AddToCalendar";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Header/>
             <GeneralImage/>
             <Invitation/>
+            <AddToCalendar/>
         </div>
     );
 }
