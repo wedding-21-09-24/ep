@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/EP/static/css/main.8872d1a4.css",
-    "main.js": "/EP/static/js/main.0d73e8f7.js",
-    "static/media/general-image.jpeg": "/EP/static/media/general-image.26f01b064bcad138a272.jpeg",
-    "static/media/inter-latin-ext-400-normal.woff": "/EP/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
-    "static/media/inter-latin-ext-400-normal.woff2": "/EP/static/media/inter-latin-ext-400-normal.0f9e8d4e940df8f6edfe.woff2",
-    "static/media/inter-latin-400-normal.woff": "/EP/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
-    "static/media/inter-latin-400-normal.woff2": "/EP/static/media/inter-latin-400-normal.f1535355a7df553be385.woff2",
-    "static/media/inter-cyrillic-ext-400-normal.woff": "/EP/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
-    "static/media/inter-greek-400-normal.woff": "/EP/static/media/inter-greek-400-normal.1eeaf1d0bde712085ffc.woff",
-    "static/media/inter-cyrillic-ext-400-normal.woff2": "/EP/static/media/inter-cyrillic-ext-400-normal.ac62c8eba7f954b48546.woff2",
-    "static/media/inter-cyrillic-400-normal.woff": "/EP/static/media/inter-cyrillic-400-normal.fa67b2dd0048a5433bd5.woff",
-    "static/media/inter-greek-400-normal.woff2": "/EP/static/media/inter-greek-400-normal.be0e76b30a7663adf9eb.woff2",
-    "static/media/inter-greek-ext-400-normal.woff": "/EP/static/media/inter-greek-ext-400-normal.708f2f7425851a3b7633.woff",
-    "static/media/inter-cyrillic-400-normal.woff2": "/EP/static/media/inter-cyrillic-400-normal.fa78d8d6788399bf6527.woff2",
-    "static/media/inter-vietnamese-400-normal.woff": "/EP/static/media/inter-vietnamese-400-normal.6eab7f5e6cae783b49bf.woff",
-    "static/media/inter-greek-ext-400-normal.woff2": "/EP/static/media/inter-greek-ext-400-normal.1e2b9039d9ecdbea5d80.woff2",
-    "static/media/inter-vietnamese-400-normal.woff2": "/EP/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
-    "index.html": "/EP/index.html",
-    "main.8872d1a4.css.map": "/EP/static/css/main.8872d1a4.css.map",
-    "main.0d73e8f7.js.map": "/EP/static/js/main.0d73e8f7.js.map"
+    "main.css": "/ep/static/css/main.c43248b7.css",
+    "main.js": "/ep/static/js/main.5e201ada.js",
+    "static/media/general-image.jpeg": "/ep/static/media/general-image.26f01b064bcad138a272.jpeg",
+    "static/media/inter-latin-ext-400-normal.woff": "/ep/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
+    "static/media/inter-latin-ext-400-normal.woff2": "/ep/static/media/inter-latin-ext-400-normal.0f9e8d4e940df8f6edfe.woff2",
+    "static/media/inter-latin-400-normal.woff": "/ep/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
+    "static/media/inter-latin-400-normal.woff2": "/ep/static/media/inter-latin-400-normal.f1535355a7df553be385.woff2",
+    "static/media/inter-cyrillic-ext-400-normal.woff": "/ep/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
+    "static/media/inter-greek-400-normal.woff": "/ep/static/media/inter-greek-400-normal.1eeaf1d0bde712085ffc.woff",
+    "static/media/inter-cyrillic-ext-400-normal.woff2": "/ep/static/media/inter-cyrillic-ext-400-normal.ac62c8eba7f954b48546.woff2",
+    "static/media/inter-cyrillic-400-normal.woff": "/ep/static/media/inter-cyrillic-400-normal.fa67b2dd0048a5433bd5.woff",
+    "static/media/inter-greek-400-normal.woff2": "/ep/static/media/inter-greek-400-normal.be0e76b30a7663adf9eb.woff2",
+    "static/media/inter-greek-ext-400-normal.woff": "/ep/static/media/inter-greek-ext-400-normal.708f2f7425851a3b7633.woff",
+    "static/media/inter-cyrillic-400-normal.woff2": "/ep/static/media/inter-cyrillic-400-normal.fa78d8d6788399bf6527.woff2",
+    "static/media/inter-vietnamese-400-normal.woff": "/ep/static/media/inter-vietnamese-400-normal.6eab7f5e6cae783b49bf.woff",
+    "static/media/inter-greek-ext-400-normal.woff2": "/ep/static/media/inter-greek-ext-400-normal.1e2b9039d9ecdbea5d80.woff2",
+    "static/media/inter-vietnamese-400-normal.woff2": "/ep/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
+    "index.html": "/ep/index.html",
+    "main.c43248b7.css.map": "/ep/static/css/main.c43248b7.css.map",
+    "main.5e201ada.js.map": "/ep/static/js/main.5e201ada.js.map"
   },
   "entrypoints": [
-    "static/css/main.8872d1a4.css",
-    "static/js/main.0d73e8f7.js"
+    "static/css/main.c43248b7.css",
+    "static/js/main.5e201ada.js"
   ]
 }
