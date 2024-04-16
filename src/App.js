@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import GeneralImage from "./components/GeneralImage";
 import Invitation from "./components/Invitation";
 import AddToCalendar from "./components/AddToCalendar";
+import DayTiming from "./components/DayTiming";
+import DetailedInvitation from "./components/DetailedInvitation";
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <GeneralImage/>
             <Invitation/>
             <AddToCalendar/>
+            <DetailedInvitation/>
+            <DayTiming/>
         </div>
     );
 }

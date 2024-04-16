@@ -85,7 +85,10 @@ function AddToCalendar() {
     return (
         <Box display="flex"
              justifyContent="center"
-             alignItems="center">
+             alignItems="center"
+             sx={{
+                 mb: '1em'
+             }}>
             <Button onClick={handleClickOpen}
                     variant="soft" size="md" color="neutral">
                 Добавить в календарь
