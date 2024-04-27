@@ -9,6 +9,8 @@ import DetailedInvitation from "./components/DetailedInvitation";
 import Location from "./components/Location";
 import Managers from "./components/Managers";
 import DressCode from "./components/DressCode";
+import Gifts from "./components/Gifts";
+import GuestForm from "./components/GuestForm";
 
 function App() {
     return (
@@ -22,6 +24,8 @@ function App() {
             <Location/>
             <Managers/>
             <DressCode/>
+            <Gifts/>
+            <GuestForm/>
         </div>
     );
 }

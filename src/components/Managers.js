@@ -25,7 +25,7 @@ function Managers() {
                     textAlign: 'center',
                     fontSize: '1.5em'
                 }}>
-                Наши организаторы!
+                Наши организаторы
             </Typography>
             <Typography
                 sx={{

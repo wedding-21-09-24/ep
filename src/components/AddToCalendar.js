@@ -90,7 +90,7 @@ function AddToCalendar() {
                  mb: '1em'
              }}>
             <Button onClick={handleClickOpen}
-                    variant="soft" size="md" color="neutral">
+                    variant="soft" size="lg" color="neutral">
                 Добавить в календарь
             </Button>
             <SimpleDialog

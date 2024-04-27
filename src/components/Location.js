@@ -20,7 +20,7 @@ function Location() {
                     textAlign: 'center',
                     fontSize: '1.5em'
                 }}>
-               Локация!
+               Локация
             </Typography>
             <Typography
                 sx={{
