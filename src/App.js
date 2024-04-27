@@ -6,6 +6,9 @@ import Invitation from "./components/Invitation";
 import AddToCalendar from "./components/AddToCalendar";
 import DayTiming from "./components/DayTiming";
 import DetailedInvitation from "./components/DetailedInvitation";
+import Location from "./components/Location";
+import Managers from "./components/Managers";
+import DressCode from "./components/DressCode";
 
 function App() {
     return (
@@ -16,6 +19,9 @@ function App() {
             <AddToCalendar/>
             <DetailedInvitation/>
             <DayTiming/>
+            <Location/>
+            <Managers/>
+            <DressCode/>
         </div>
     );
 }

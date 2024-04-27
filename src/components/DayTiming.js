@@ -1,5 +1,10 @@
-import {AspectRatio, Box, Card, CardContent, CardOverflow, Stack, Typography} from "@mui/joy";
-import {ListItemText} from "@mui/material";
+import {
+    Box,
+    ListItemContent,
+    ListItemDecorator,
+    Typography
+} from "@mui/joy";
+import {List, ListItem, ListItemText} from "@mui/material";
 import * as React from "react";
 import dayTimingImage from "../images/day-timing.jpg";
 
@@ -18,7 +23,7 @@ const events = [{
 }, {
     time: "23:00",
     title: "Окончание мероприятия",
-    description: "К сожалению, даже такой прекрасный вечер может закончится"
+    description: "Мы такие разные, но все-таки идем домой"
 }]
 
 function DayTiming() {
@@ -39,30 +44,24 @@ function DayTiming() {
                 }}>
                 Тайминг дня
             </Typography>
-            <Stack>
+
+            <List
+                variant="outlined"
+                aria-labelledby="ellipsis-list-demo"
+                sx={{ '--ListItemDecorator-size': '56px' }}
+            >
                 {events.map((event) => (
-                    <Card orientation="horizontal" variant="plain" sx={{
-                        backgroundColor: 'rgba(205,215,254,0.5)',
-                        width: 300,
-                        alignSelf: 'center'
-                    }}>
-                        <CardOverflow sx={{
-                            backgroundColor: 'rgba(205,215,254,0.7)'
-                        }}>
-                            <AspectRatio ratio="1" variant="plain" sx={{ width: 90 }}>
-                                <ListItemText
-                                    primary={event.time}/>
-                            </AspectRatio>
-                        </CardOverflow>
-                        <CardContent>
-                            <Typography fontWeight="md">
-                                {event.title}
-                            </Typography>
-                            <Typography level="body-sm">{event.description}</Typography>
-                        </CardContent>
-                    </Card>
+                    <ListItem>
+                        <ListItemDecorator>
+                            <ListItemText primary={event.time}/>
+                        </ListItemDecorator>
+                        <ListItemContent>
+                            <Typography level="title-sm">{event.title}</Typography>
+                            <Typography level="body-sm" noWrap>{event.description}</Typography>
+                        </ListItemContent>
+                    </ListItem>
                 ))}
-            </Stack>
+            </List>
         </Box>
     );
 }
