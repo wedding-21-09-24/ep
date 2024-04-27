@@ -10,7 +10,7 @@ function DetailedInvitation() {
                     textAlign: 'center',
                     fontSize: '1.5em'
                 }}>
-                ДОРОГИЕ ГОСТИ!
+                Дорогие гости!
             </Typography>
             <Typography
                 sx={{

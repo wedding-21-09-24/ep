@@ -1,10 +1,5 @@
-import {
-    Box,
-    ListItemContent,
-    ListItemDecorator,
-    Typography
-} from "@mui/joy";
-import {List, ListItem, ListItemText} from "@mui/material";
+import {AspectRatio, Box, Card, CardContent, CardOverflow, Stack, Typography} from "@mui/joy";
+import {ListItemText} from "@mui/material";
 import * as React from "react";
 import dayTimingImage from "../images/day-timing.jpg";
 
@@ -36,32 +31,51 @@ function DayTiming() {
             pt: '1em',
             pb: '1em'
         }}>
-            <Typography
-                sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em',
-                    mb: '0.5em'
-                }}>
-                Тайминг дня
-            </Typography>
 
-            <List
-                variant="outlined"
-                aria-labelledby="ellipsis-list-demo"
-                sx={{ '--ListItemDecorator-size': '56px' }}
-            >
+            <Stack
+                sx={{gap: 1.5}}>
+                <Card orientation="horizontal" variant="plain" sx={{
+                    backgroundColor: 'rgb(245,245,245)(229,228,226)',
+                    width: 310,
+                    alignSelf: 'center',
+                    mt: 3,
+
+                    pt:0.75,
+                    pb:0.75
+                }}>
+                    <CardContent>
+                        <Typography
+                            sx={{
+                                textAlign: 'center',
+                                fontSize: '1.5em'
+                            }}>
+                            Тайминг дня
+                        </Typography>
+                    </CardContent>
+                </Card>
                 {events.map((event) => (
-                    <ListItem>
-                        <ListItemDecorator>
-                            <ListItemText primary={event.time}/>
-                        </ListItemDecorator>
-                        <ListItemContent>
-                            <Typography level="title-sm">{event.title}</Typography>
-                            <Typography level="body-sm" noWrap>{event.description}</Typography>
-                        </ListItemContent>
-                    </ListItem>
+                    <Card orientation="horizontal" variant="plain" sx={{
+                        backgroundColor: 'rgb(245,245,245)(229,228,226)',
+                        width: 310,
+                        alignSelf: 'center'
+                    }}>
+                        <CardOverflow sx={{
+                            backgroundColor: 'rgb(245,245,245)'
+                        }}>
+                            <AspectRatio ratio="1" variant="plain" sx={{width: 90}}>
+                                <ListItemText
+                                    primary={event.time}/>
+                            </AspectRatio>
+                        </CardOverflow>
+                        <CardContent>
+                            <Typography fontWeight="md">
+                                {event.title}
+                            </Typography>
+                            <Typography level="body-sm">{event.description}</Typography>
+                        </CardContent>
+                    </Card>
                 ))}
-            </List>
+            </Stack>
         </Box>
     );
 }

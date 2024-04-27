@@ -11,7 +11,9 @@ function Location() {
         <Box sx={{
             pt: '1em',
             pb: '1em',
-            mt: '1em'
+            mt: '1em',
+            ml: '1em',
+            mr: '1em'
         }}>
             <Typography
                 sx={{
