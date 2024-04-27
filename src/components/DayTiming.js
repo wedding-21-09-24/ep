@@ -24,6 +24,7 @@ const events = [{
 function DayTiming() {
     return (
         <Box sx={{
+            mt: '3em',
             backgroundImage: `url(${dayTimingImage})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',

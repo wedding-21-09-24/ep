@@ -15,25 +15,26 @@ function DressCode() {
     const womenDress = [`${womenDress1}`]
     const menDress = [`${menDress1}`]
     return (
-        <Box sx={{mt: '1em'}}>
+        <Box sx={{
+            m: '1em',
+            mt: '3em'
+        }}>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                 Дресс-код
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Мы очень ждем и с удовольствием готовимся к нашему незабыаемому дню!
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Поддержите нас вашими улыбками и объятиями, а также красивыми нарядами в палитре торжества.
             </Typography>
@@ -54,15 +55,15 @@ function DressCode() {
 
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    mt: '1.5em',
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                 Дeвушкам
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Уже видим вас в каком-нибудь однотонном коктейльном платье или костюме, а может быть в юбке/брюках и топе,
                 в обуви на каблуках или на плоской подошве (вообще планируется очень много танцевать,
@@ -70,8 +71,7 @@ function DressCode() {
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Не стремитесь подбирать одежду точь-в-точь по цвету из палитры, главное, чтобы оттенки были приближены к заданным.
                 И, пожалуйста, избегайте белого и черного цвета в своих нарядах.
@@ -97,15 +97,15 @@ function DressCode() {
 
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    mt: '1.5em',
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                 Мужчинам
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Образы мужчин мы видим следующими:
                 костюм (можно без галстука)

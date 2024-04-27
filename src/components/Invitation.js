@@ -2,7 +2,10 @@ import {Box, Typography} from "@mui/joy";
 
 function Invitation() {
     return (
-        <Box sx={{mt: '1em'}}>
+        <Box sx={{
+            m: '1em',
+            mt: '1em'
+        }}>
             <Typography
                 sx={{
                     textAlign: 'center',

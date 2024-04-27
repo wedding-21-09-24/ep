@@ -1,35 +1,23 @@
-import {
-    Box,
-    Button,
-    Card,
-    CardCover, Checkbox,
-    FormControl, FormHelperText,
-    FormLabel,
-    Input, ListItemDecorator,
-    Radio,
-    RadioGroup,
-    Stack,
-    Typography
-} from "@mui/joy";
+import {Box, Button, Checkbox, FormControl, FormLabel, Input, Radio, RadioGroup, Stack, Typography} from "@mui/joy";
 import * as React from "react";
-import vinylListImage from "../images/vinyl-list-1.jpeg";
-import {FormGroup, List, ListItem} from "@mui/material";
-import {Apartment, People, Person} from "@mui/icons-material";
+import {FormGroup} from "@mui/material";
 
 function GuestForm() {
     return (
-        <Box sx={{mt: '1em'}}>
+        <Box sx={{
+            m: '1em',
+            mt: '3em'
+        }}>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                 Анкета гостя
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Ваши ответы на вопросы очень помогут нам при организации свадьбы
             </Typography>
@@ -37,10 +25,7 @@ function GuestForm() {
             <Box display="flex"
                 justifyContent="center"
                 alignItems="center"
-            sx={{
-                pl:2,
-                pr:2
-            }}>
+            >
                 <FormGroup sx={{gap: 3}}>
                     <FormGroup>
                         <FormLabel sx={{mb: 1}}>Имя Фамилия</FormLabel>

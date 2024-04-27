@@ -1,4 +1,4 @@
-import {Box, Card, CardContent, CardCover, Link, Typography} from "@mui/joy";
+import {Box, Card, CardContent, CardCover, Divider, Typography} from "@mui/joy";
 import SmartphoneOutlinedIcon from '@mui/icons-material/SmartphoneOutlined';
 import * as React from "react";
 import managerPhoto1 from "../images/manager-photo-1.jpg";
@@ -16,21 +16,19 @@ function Managers() {
     }]
     return (
         <Box sx={{
-            pt: '1em',
-            pb: '1em',
-            mt: '1em'
+            m: '1em',
+            mt: '3em'
         }}>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                 Наши организаторы
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 По всем вопросам (творческое поздравление, координация и т.п.) можете обращаться:
             </Typography>

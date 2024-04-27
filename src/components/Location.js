@@ -9,23 +9,19 @@ function Location() {
     const images = [`${locationImage3}`,`${locationImage1}`, `${locationImage2}`, `${locationImage4}`]
     return (
         <Box sx={{
-            pt: '1em',
-            pb: '1em',
-            mt: '1em',
-            ml: '1em',
-            mr: '1em'
+            m: '1em',
+            mt: '3em'
         }}>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em'
+                    fontSize: '1.5em',
+                    mb: '0.25em'
                 }}>
                Локация
             </Typography>
             <Typography
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    mb: '1em'
                 }}>
                 Наша свадьба будет проходить по адресу: <Link href="https://yandex.ru/profile/56637267280">г. Москва 2-й Кожуховский пр., 29, корп. 6</Link>
             </Typography>
