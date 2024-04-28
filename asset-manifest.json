@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ep/static/css/main.56de92be.css",
-    "main.js": "/ep/static/js/main.c2dcee18.js",
+    "main.js": "/ep/static/js/main.962de981.js",
     "static/media/general-image.jpeg": "/ep/static/media/general-image.26f01b064bcad138a272.jpeg",
     "static/media/day-timing.jpg": "/ep/static/media/day-timing.669e0287e92c0c91933b.jpg",
     "static/media/vinyl-list-1.jpeg": "/ep/static/media/vinyl-list-1.db208260bebdd163f3cc.jpeg",
@@ -29,10 +29,10 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/ep/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
     "index.html": "/ep/index.html",
     "main.56de92be.css.map": "/ep/static/css/main.56de92be.css.map",
-    "main.c2dcee18.js.map": "/ep/static/js/main.c2dcee18.js.map"
+    "main.962de981.js.map": "/ep/static/js/main.962de981.js.map"
   },
   "entrypoints": [
     "static/css/main.56de92be.css",
-    "static/js/main.c2dcee18.js"
+    "static/js/main.962de981.js"
   ]
 }
