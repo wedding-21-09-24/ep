@@ -83,14 +83,12 @@ function AddToCalendar() {
     };
 
     return (
-        <Box display="flex"
-             justifyContent="center"
-             alignItems="center"
-             sx={{
-                 mb: '1em'
-             }}>
+        <Box>
             <Button onClick={handleClickOpen}
-                    variant="soft" size="lg" color="neutral">
+                    size="lg" color="neutral"
+            sx={{
+                width: '100%'
+            }}>
                 Добавить в календарь
             </Button>
             <SimpleDialog

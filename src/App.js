@@ -3,7 +3,6 @@ import '@fontsource/inter';
 import Header from "./components/Header";
 import GeneralImage from "./components/GeneralImage";
 import Invitation from "./components/Invitation";
-import AddToCalendar from "./components/AddToCalendar";
 import DayTiming from "./components/DayTiming";
 import DetailedInvitation from "./components/DetailedInvitation";
 import Location from "./components/Location";
@@ -18,10 +17,9 @@ function App() {
             <Header/>
             <GeneralImage/>
             <Invitation/>
-            <AddToCalendar/>
             <DetailedInvitation/>
-            <DayTiming/>
             <Location/>
+            <DayTiming/>
             <Managers/>
             <DressCode/>
             <Gifts/>

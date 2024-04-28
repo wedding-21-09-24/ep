@@ -1,4 +1,5 @@
 import {Box, Typography} from "@mui/joy";
+import AddToCalendar from "./AddToCalendar";
 
 function Invitation() {
     return (
@@ -16,18 +17,14 @@ function Invitation() {
             <Typography
                 sx={{
                     textAlign: 'center',
-                    fontSize: '1.5em'
+                    fontSize: '1.5em',
+                    mb: '0.5em'
                 }}>
                 21 сентября 2024
             </Typography>
-            <Typography
-                sx={{
-                    textAlign: 'center',
-                    fontSize: '1em',
-                    mb: '0.5em'
-                }}>
-                LOFT HALL
-            </Typography>
+            <AddToCalendar sx={{
+                mt: '1em'
+            }}/>
         </Box>
     );
 }

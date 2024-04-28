@@ -17,13 +17,13 @@ function Location() {
                     fontSize: '1.5em',
                     mb: '0.25em'
                 }}>
-               Локация
+               Где?
             </Typography>
             <Typography
                 sx={{
                     mb: '1em'
                 }}>
-                Наша свадьба будет проходить по адресу: <Link href="https://yandex.ru/profile/56637267280">г. Москва 2-й Кожуховский пр., 29, корп. 6</Link>
+                Наша свадьба будет проходить по адресу: <Link target="_blank" href="https://yandex.ru/profile/56637267280">г. Москва, 2-й Кожуховский пр., 29, корп. 6</Link>
             </Typography>
             <Box
                 component="ul"
