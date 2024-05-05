@@ -83,17 +83,10 @@ function GuestForm() {
             m: '1em',
             mt: '3em'
         }}>
-            <Typography
-                sx={{
-                    fontSize: '1.5em',
-                    mb: '0.25em'
-                }}>
+            <Typography className="fontHeader">
                 Анкета гостя
             </Typography>
-            <Typography
-                sx={{
-                    mb: '1em'
-                }}>
+            <Typography className="fontRegular">
                 Ваши ответы на вопросы очень помогут нам при организации свадьбы
             </Typography>
             <form onSubmit={handleSubmit} hidden={formIsHidden}>
@@ -102,17 +95,27 @@ function GuestForm() {
                      alignItems="center"
                 >
                     <FormGroup sx={{
-                        gap: 3,
+                        mt: '2em',
+                        gap: 5,
                         width: '100%'
                     }}>
                         <FormGroup>
-                            <FormLabel sx={{mb: 1}}>Имя Фамилия</FormLabel>
+                            <Typography className="fontRegular"
+                                        sx={{
+                                            textAlign: "left"
+                                        }}>Имя Фамилия</Typography>
                             <Input value={fullName}
                                    onInput={e => setFullName(e.target.value)}
-                                   size="lg"/>
+                                   size="lg"
+                            sx={{
+                                // borderColor="black"
+                            }}/>
                         </FormGroup>
                         <FormGroup>
-                            <FormLabel sx={{mb: 1}}>Присутствие</FormLabel>
+                            <Typography className="fontRegular"
+                                        sx={{
+                                            textAlign: "left"
+                                        }}>Присутствие</Typography>
                             <FormControl>
                                 <RadioGroup
                                     value={presence}
@@ -125,14 +128,19 @@ function GuestForm() {
                             </FormControl>
                         </FormGroup>
                         <FormGroup>
-                            <FormLabel sx={{mb: 1}}>Есть ли аллергия, диета или особое требование к
-                                меню?</FormLabel>
+                            <Typography className="fontRegular"
+                                        sx={{
+                                            textAlign: "left"
+                                        }}>Есть ли аллергия, диета или особое требование к меню?</Typography>
                             <Input value={allergy}
                                    onInput={e => setAllergy(e.target.value)}
                                    size="lg"/>
                         </FormGroup>
                         <FormGroup>
-                            <FormLabel sx={{mb: 1}}>Предпочтения по напиткам</FormLabel>
+                            <Typography className="fontRegular"
+                                        sx={{
+                                            textAlign: "left"
+                                        }}>Предпочтения по напиткам</Typography>
                             <Stack
                                 sx={{gap: 2}}>
                                 <Checkbox label="Вино белое"
@@ -163,24 +171,24 @@ function GuestForm() {
                         </FormGroup>
 
                         <Button
+                            sx={{
+                                backgroundColor: 'black'
+                            }}
                             size="lg" color="neutral"
                             type="submit">Отправить</Button>
                     </FormGroup>
                 </Box>
             </form>
             <Box hidden={!formIsHidden}>
-                <Typography
-                    sx={{
-                        fontSize: '1.5em',
-                        mb: '0.25em'
-                    }}>
+                <Typography className="fontHeader">
                     Спасибо за ответы!
                 </Typography>
                 <Button
                     onClick={repeatVote}
                     size="lg" color="neutral"
                     sx={{
-                        width: '100%'
+                        width: '100%',
+                        backgroundColor: 'black'
                     }}>Заполнить анкету ещё раз</Button>
             </Box>
         </Box>

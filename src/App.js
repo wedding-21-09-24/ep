@@ -10,17 +10,22 @@ import Managers from "./components/Managers";
 import DressCode from "./components/DressCode";
 import Gifts from "./components/Gifts";
 import GuestForm from "./components/GuestForm";
+import {CssBaseline} from "@mui/joy";
+import Divider from "./components/Divider";
 
 function App() {
     return (
         <div className="App">
+            <CssBaseline/>
             <Header/>
             <GeneralImage/>
             <Invitation/>
             <DetailedInvitation/>
             <Location/>
+            <Divider/>
             <DayTiming/>
             <Managers/>
+            <Divider/>
             <DressCode/>
             <Gifts/>
             <GuestForm/>

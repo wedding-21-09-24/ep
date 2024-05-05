@@ -87,7 +87,8 @@ function AddToCalendar() {
             <Button onClick={handleClickOpen}
                     size="lg" color="neutral"
             sx={{
-                width: '100%'
+                width: '100%',
+                backgroundColor: 'black'
             }}>
                 Добавить в календарь
             </Button>

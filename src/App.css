@@ -3,3 +3,38 @@ body {
     margin: 0 auto;
     max-width: 900px;
 }
+
+.fontHeader {
+    text-align: center;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    /*font-family: "Times New Roman" !important;*/
+    /*font-family: "Open Sans", Arial, sans-serif !important;*/
+}
+.fontRegular {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem !important;
+    /*font-family: "Times New Roman" !important;*/
+    /*font-family: "Open Sans", Arial, sans-serif !important;*/
+}
+
+.MuiFormLabel-root,
+.MuiRadio-label,
+.MuiCheckbox-label,
+.MuiButton-root {
+    font-family: "Open Sans", Arial, sans-serif !important;
+}
+
+.MuiTypography-root {
+    font-family: "Open Sans", Arial, sans-serif !important;
+}
+.MuiInput-root {
+    border-color: black !important;
+}
+.MuiRadio-radio {
+    border-color: black !important;
+}
+.MuiCheckbox-checkbox {
+    border-color: black !important;
+}

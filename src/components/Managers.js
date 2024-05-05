@@ -19,17 +19,10 @@ function Managers() {
             m: '1em',
             mt: '3em'
         }}>
-            <Typography
-                sx={{
-                    fontSize: '1.5em',
-                    mb: '0.25em'
-                }}>
+            <Typography className="fontHeader">
                 Наши организаторы
             </Typography>
-            <Typography
-                sx={{
-                    mb: '1em'
-                }}>
+            <Typography className="fontRegular">
                 По всем вопросам (творческое поздравление, координация и т.п.) можете обращаться:
             </Typography>
             <Box

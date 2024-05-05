@@ -6,18 +6,19 @@ function DetailedInvitation() {
             m: '1em',
             mt: '3em'
         }}>
-            <Typography
-                sx={{
-                    fontSize: '1.5em',
-                    mb: '0.25em'
-                }}>
+            <Typography className="fontHeader">
                 Дорогие гости!
             </Typography>
-            <Typography>
-                В нашей жизни предстоят счастливые перемены! Мы хотим, чтобы в этот день рядом с нами были самые близкие
-                и дорогие для нас люди. Будем рады разделить с вами чудесный праздник в день нашей свадьбы.
+            <Typography className="fontRegular">
+                В нашей жизни предстоят счастливые перемены!
             </Typography>
-            <Typography>
+            <Typography className="fontRegular">
+                Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди.
+            </Typography>
+            <Typography className="fontRegular">
+                Будем рады разделить с вами чудесный праздник в день нашей свадьбы.
+            </Typography>
+            <Typography className="fontRegular">
                 С любовью, Екатерина и Павел.
             </Typography>
         </Box>

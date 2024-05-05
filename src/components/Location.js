@@ -1,28 +1,18 @@
 import {Box, Card, CardCover, Link, Typography} from "@mui/joy";
 import * as React from "react";
-import locationImage1 from "../images/location-image-1.jpg";
-import locationImage2 from "../images/location-image-2.jpg";
 import locationImage3 from "../images/location-image-3.jpg";
-import locationImage4 from "../images/location-image-4.jpg";
 
 function Location() {
-    const images = [`${locationImage3}`,`${locationImage1}`, `${locationImage2}`, `${locationImage4}`]
+    const images = [`${locationImage3}`]
     return (
         <Box sx={{
             m: '1em',
             mt: '3em'
         }}>
-            <Typography
-                sx={{
-                    fontSize: '1.5em',
-                    mb: '0.25em'
-                }}>
+            <Typography className="fontHeader">
                Где?
             </Typography>
-            <Typography
-                sx={{
-                    mb: '1em'
-                }}>
+            <Typography className="fontRegular">
                 Наша свадьба будет проходить по адресу: <Link target="_blank" href="https://yandex.ru/profile/56637267280">г. Москва, 2-й Кожуховский пр., 29, корп. 6</Link>
             </Typography>
             <Box

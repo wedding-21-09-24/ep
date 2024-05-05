@@ -18,65 +18,38 @@ const events = [{
 }, {
     time: "23:00",
     title: "Окончание мероприятия",
-    description: "Мы такие разные, но все-таки идем домой"
+    description: "Уютные объятия и много ярких впечатлений!"
 }]
 
 function DayTiming() {
     return (
         <Box sx={{
-            mt: '4em',
-            backgroundImage: `url(${dayTimingImage})`,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center center',
-            pt: '1em',
-            pb: '1em'
+            m: '1em',
+            mt: '3em'
         }}>
-
-            <Stack
-                sx={{gap: 1.5}}>
-                <Card orientation="horizontal" variant="plain" sx={{
-                    backgroundColor: 'rgb(245,245,245)(229,228,226)',
-                    width: 310,
-                    alignSelf: 'center',
-                    mt: 3,
-
-                    pt:0.75,
-                    pb:0.75
+            <Typography className="fontHeader">
+                Программа дня
+            </Typography>
+            {events.map((event) => (
+                <Box sx={{
+                    mt: '2em',
+                    backgroundColor: 'rgb(245,245,245)',
+                    p: '1em',
+                    pt: '2em',
+                    pb: '1em'
                 }}>
-                    <CardContent>
-                        <Typography
-                            sx={{
-                                textAlign: 'center',
-                                fontSize: '1.5em'
-                            }}>
-                            Тайминг дня
-                        </Typography>
-                    </CardContent>
-                </Card>
-                {events.map((event) => (
-                    <Card orientation="horizontal" variant="plain" sx={{
-                        backgroundColor: 'rgb(245,245,245)(229,228,226)',
-                        width: 310,
-                        alignSelf: 'center'
-                    }}>
-                        <CardOverflow sx={{
-                            backgroundColor: 'rgb(245,245,245)'
-                        }}>
-                            <AspectRatio ratio="1" variant="plain" sx={{width: 90}}>
-                                <ListItemText
-                                    primary={event.time}/>
-                            </AspectRatio>
-                        </CardOverflow>
-                        <CardContent>
-                            <Typography fontWeight="md">
-                                {event.title}
-                            </Typography>
-                            <Typography level="body-sm">{event.description}</Typography>
-                        </CardContent>
-                    </Card>
-                ))}
-            </Stack>
+                    <Typography className="fontHeader">
+                        {event.time}
+                    </Typography>
+                    <Typography className="fontHeader">
+                        {event.title}
+                    </Typography>
+                    <Typography className="fontRegular">
+                        {event.description}
+                    </Typography>
+                </Box>
+
+            ))}
         </Box>
     );
 }

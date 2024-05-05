@@ -7,24 +7,24 @@ function Invitation() {
             m: '1em',
             mt: '1em'
         }}>
-            <Typography
+            <Typography className="fontRegular"
                 sx={{
-                    textAlign: 'center',
-                    mb: '0.5em'
+                    textAlign: 'center'
                 }}>
                 Мы будем счастливы видеть вас на нашей свадьбе
             </Typography>
-            <Typography
-                sx={{
-                    textAlign: 'center',
-                    fontSize: '1.5em',
-                    mb: '0.5em'
-                }}>
+            <Typography className="fontHeader"
+            sx={{
+                textAlign: 'center'
+            }}>
                 21 сентября 2024
             </Typography>
-            <AddToCalendar sx={{
-                mt: '1em'
-            }}/>
+            <Box sx={{
+                mt: '3em'
+            }}>
+                <AddToCalendar/>
+            </Box>
+
         </Box>
     );
 }
