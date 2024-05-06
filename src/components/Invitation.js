@@ -4,23 +4,17 @@ import AddToCalendar from "./AddToCalendar";
 function Invitation() {
     return (
         <Box sx={{
-            m: '1em',
+            m: '2em',
             mt: '1em'
         }}>
-            <Typography className="fontRegular"
-                sx={{
-                    textAlign: 'center'
-                }}>
-                Мы будем счастливы видеть вас на нашей свадьбе
+            <Typography className="fontHandwrite">
+                Приглашаем вас на свадьбу!
             </Typography>
-            <Typography className="fontHeader"
-            sx={{
-                textAlign: 'center'
-            }}>
+            <Typography className="fontHeader">
                 21 сентября 2024
             </Typography>
             <Box sx={{
-                mt: '3em'
+                mt: '2em'
             }}>
                 <AddToCalendar/>
             </Box>

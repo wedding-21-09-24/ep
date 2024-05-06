@@ -1,34 +1,48 @@
 body {
     display: block;
-    margin: 0 auto;
-    max-width: 900px;
+    margin: 0 auto !important;
+    max-width: 600px;
+}
+
+@font-face {
+    font-family: "ShlapakScript";
+    src: local("ShlapakScript"),
+    url("./fonts/ShlapakScript.otf") format("truetype");
+}
+
+.fontHandwrite {
+    text-align: center;
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+    font-family: "ShlapakScript", Helvetica, sans-serif !important;
 }
 
 .fontHeader {
     text-align: center;
-    font-size: 1.5rem !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
     margin-bottom: 1rem !important;
-    /*font-family: "Times New Roman" !important;*/
-    /*font-family: "Open Sans", Arial, sans-serif !important;*/
+    font-family: Helvetica, sans-serif !important;
 }
+
 .fontRegular {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 17px !important;
     margin-bottom: 1rem !important;
-    /*font-family: "Times New Roman" !important;*/
-    /*font-family: "Open Sans", Arial, sans-serif !important;*/
+    font-family: Helvetica, sans-serif !important;
+
+    font-weight: 300 !important;
+    line-height: 19.55px !important;
+
 }
 
 .MuiFormLabel-root,
 .MuiRadio-label,
 .MuiCheckbox-label,
 .MuiButton-root {
-    font-family: "Open Sans", Arial, sans-serif !important;
+    font-family: Helvetica, sans-serif !important;
 }
 
-.MuiTypography-root {
-    font-family: "Open Sans", Arial, sans-serif !important;
-}
 .MuiInput-root {
     border-color: black !important;
 }

@@ -1,123 +1,54 @@
-import {Box, Card, CardCover, Typography} from "@mui/joy";
+import {Box, Card, Typography} from "@mui/joy";
 import * as React from "react";
-import womenDress1 from "../images/women-dress-1.jpg";
-import menDress1 from "../images/men-dress-1.jpg";
 
 function DressCode() {
     const colors = [
-        "rgb(194,129,27)",
-        "rgb(223,169,140)",
-        "rgb(219,133,101)",
-        "rgb(140,77,50)",
-        "rgb(161,159,137)",
-        "rgb(106,97,53)"]
+        "rgba(240, 196, 89, 1)",
+        "rgba(202, 129, 0, 1)",
+        "rgba(231, 193, 159, 1)",
+        "rgba(148, 74, 39, 1)",
+        "rgba(161, 160, 135, 1)",
+        "rgba(115, 119, 103, 1)",
+        "rgba(88, 130, 154, 1)",
+        "rgba(12, 67, 98, 1)",
+        "rgba(2, 8, 53, 1)",
+        "rgba(175, 170, 168, 1)",
+        "rgba(108, 109, 109, 1)",
+        "rgba(59, 61, 62, 1)"]
 
-    const womenDress = [`${womenDress1}`]
-    const menDress = [`${menDress1}`]
     return (
         <Box sx={{
-            m: '1em',
+            m: '2em',
             mb: '2em'
         }}>
             <Typography className="fontHeader">
                 Дресс-код
             </Typography>
             <Typography className="fontRegular">
-                Мы очень ждем и с удовольствием готовимся к нашему незабыаемому дню!
+                В лучших свадебных традициях у нас есть дресс-код.
             </Typography>
             <Typography className="fontRegular">
-                Поддержите нас вашими улыбками и объятиями, а также красивыми нарядами в палитре торжества.
+                Он необязателен. Для нас важнее, чтобы вам было комфортно.
+            </Typography>
+            <Typography className="fontRegular">
+                Но если вы придержитесь этих цветов при выборе одежды — нам будет приятно)
             </Typography>
             <Box
                 component="ul"
                 justifyContent="center"
                 alignItems="center"
-                sx={{display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0}}
+                sx={{
+                    display: 'flex', gap: 1, flexWrap: 'wrap', p: 0,
+                    m: 0,
+                    mt: '2em'
+                }}
             >
                 {colors.map((colorItem) => (
                     <Card
                         sx={{
-                            width: 64, height: 64,
+                            width: 50, height: 50,
                             backgroundColor: `${colorItem}`
                         }}>
-                    </Card>
-                ))}
-            </Box>
-
-            <Typography className="fontHeader"
-                        sx={{
-                            mt: '1.5em'
-                        }}>
-                Девушкам
-            </Typography>
-            <Typography className="fontRegular"
-                        sx={{
-                            mb: '1em'
-                        }}>
-                Уже видим вас в каком-нибудь однотонном коктейльном платье или костюме, а может быть в юбке/брюках и
-                топе,
-                в обуви на каблуках или на плоской подошве (вообще планируется очень много танцевать,
-                поэтому в конце вечера вы всё равно обувь сбросите).
-            </Typography>
-            <Typography className="fontRegular"
-                        sx={{
-                            mb: '1em'
-                        }}>
-                Не стремитесь подбирать одежду точь-в-точь по цвету из палитры, главное, чтобы оттенки были приближены к
-                заданным.
-                И, пожалуйста, избегайте белого и черного цвета в своих нарядах.
-            </Typography>
-            <Box
-                component="ul"
-                justifyContent="center"
-                alignItems="center"
-                sx={{display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0}}
-            >
-                {womenDress.map((dress) => (
-                    <Card sx={{minHeight: '460px', width: 320}}>
-                        <CardCover>
-                            <img
-                                src={dress}
-                                loading="lazy"
-                                alt=""
-                            />
-                        </CardCover>
-                    </Card>
-                ))}
-            </Box>
-
-            <Typography className="fontHeader"
-                        sx={{
-                            mt: '1.5em'
-                        }}>
-                Мужчинам
-            </Typography>
-            <Typography className="fontRegular"
-                        sx={{
-                            mb: '1em'
-                        }}>
-                Образы мужчин мы видим следующими:
-                костюм (можно без галстука)
-                классические брюки в темно - синем или сером цвете
-                белая рубашка или поло
-                пиджак (можно и без него)
-                классические туфли, лоферы или белые кроссовки
-            </Typography>
-            <Box
-                component="ul"
-                justifyContent="center"
-                alignItems="center"
-                sx={{display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0}}
-            >
-                {menDress.map((dress) => (
-                    <Card sx={{minHeight: '460px', width: 320}}>
-                        <CardCover>
-                            <img
-                                src={dress}
-                                loading="lazy"
-                                alt=""
-                            />
-                        </CardCover>
                     </Card>
                 ))}
             </Box>

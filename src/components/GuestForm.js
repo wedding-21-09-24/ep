@@ -1,7 +1,7 @@
-import {Box, Button, Checkbox, FormControl, FormLabel, Input, Radio, RadioGroup, Stack, Typography} from "@mui/joy";
+import {Box, Button, Checkbox, FormControl, Input, Radio, RadioGroup, Stack, Typography} from "@mui/joy";
 import * as React from "react";
-import {FormGroup} from "@mui/material";
 import {useState} from "react";
+import {FormGroup} from "@mui/material";
 
 function GuestForm() {
     const [formIsHidden, setFormIsHidden] = useState(false);
@@ -80,7 +80,7 @@ function GuestForm() {
 
     return (
         <Box sx={{
-            m: '1em',
+            m: '2em',
             mt: '3em'
         }}>
             <Typography className="fontHeader">
@@ -172,7 +172,8 @@ function GuestForm() {
 
                         <Button
                             sx={{
-                                backgroundColor: 'black'
+                                backgroundColor: 'black',
+                                boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
                             }}
                             size="lg" color="neutral"
                             type="submit">Отправить</Button>
@@ -188,7 +189,8 @@ function GuestForm() {
                     size="lg" color="neutral"
                     sx={{
                         width: '100%',
-                        backgroundColor: 'black'
+                        backgroundColor: 'black',
+                        boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
                     }}>Заполнить анкету ещё раз</Button>
             </Box>
         </Box>

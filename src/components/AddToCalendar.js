@@ -10,7 +10,7 @@ function SimpleDialog(props) {
     const addToAppleCalendarUrl = "BEGIN:VCALENDAR\n" +
         "VERSION:2.0\n" +
         "BEGIN:VEVENT\n" +
-        "URL:http://192.168.1.165:3000/EP\n" +
+        "URL:https://wedding-21-09-24.github.io/ep/\n" +
         "METHOD:PUBLISH\n" +
         "DTSTART:20240921T163000\n" +
         "DTEND:20240921T230000\n" +
@@ -88,7 +88,8 @@ function AddToCalendar() {
                     size="lg" color="neutral"
             sx={{
                 width: '100%',
-                backgroundColor: 'black'
+                backgroundColor: 'black',
+                boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
             }}>
                 Добавить в календарь
             </Button>
