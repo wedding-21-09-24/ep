@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ep/static/css/main.364584a7.css",
-    "main.js": "/ep/static/js/main.6dc4e0fc.js",
-    "static/media/general-image.jpeg": "/ep/static/media/general-image.26f01b064bcad138a272.jpeg",
-    "static/media/day-timing.jpg": "/ep/static/media/day-timing.669e0287e92c0c91933b.jpg",
-    "static/media/vinyl-list-1.jpeg": "/ep/static/media/vinyl-list-1.db208260bebdd163f3cc.jpeg",
+    "main.css": "/ep/static/css/main.7dc62cdb.css",
+    "main.js": "/ep/static/js/main.919870c2.js",
+    "static/media/details.jpg": "/ep/static/media/details.1233a1fa17ed5c13d726.jpg",
+    "static/media/see-later.jpg": "/ep/static/media/see-later.8b65e6e5b2d15751fbf4.jpg",
+    "static/media/hi.jpg": "/ep/static/media/hi.502c470ae017f112bb6b.jpg",
     "static/media/manager-photo-2.jpg": "/ep/static/media/manager-photo-2.b5a6df48b4dea69e1e76.jpg",
-    "static/media/location-image-3.jpg": "/ep/static/media/location-image-3.40b58ca872434a73efd8.jpg",
-    "static/media/women-dress-1.jpg": "/ep/static/media/women-dress-1.5e77b6919fba908ff1c5.jpg",
+    "static/media/location.jpg": "/ep/static/media/location.40b58ca872434a73efd8.jpg",
     "static/media/manager-photo-1.jpg": "/ep/static/media/manager-photo-1.739d1213c6f8987e80c1.jpg",
-    "static/media/men-dress-1.jpg": "/ep/static/media/men-dress-1.0382e489f65779420fd1.jpg",
+    "static/media/GilroyLight.ttf": "/ep/static/media/GilroyLight.1b7fff53076b21283967.ttf",
+    "static/media/GilroyMedium.ttf": "/ep/static/media/GilroyMedium.f9f832b0ed3f1ab138c9.ttf",
     "static/media/inter-latin-ext-400-normal.woff": "/ep/static/media/inter-latin-ext-400-normal.40b3b0d5e09a90fb6e3e.woff",
     "static/media/inter-latin-ext-400-normal.woff2": "/ep/static/media/inter-latin-ext-400-normal.0f9e8d4e940df8f6edfe.woff2",
     "static/media/inter-latin-400-normal.woff": "/ep/static/media/inter-latin-400-normal.08a02fd275ecea6ef662.woff",
+    "static/media/ShlapakScript.otf": "/ep/static/media/ShlapakScript.66dd3fa75978acda6a4e.otf",
     "static/media/inter-latin-400-normal.woff2": "/ep/static/media/inter-latin-400-normal.f1535355a7df553be385.woff2",
     "static/media/inter-cyrillic-ext-400-normal.woff": "/ep/static/media/inter-cyrillic-ext-400-normal.cd2ad378115f549d3c5b.woff",
     "static/media/inter-greek-400-normal.woff": "/ep/static/media/inter-greek-400-normal.1eeaf1d0bde712085ffc.woff",
@@ -25,11 +26,11 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/ep/static/media/inter-greek-ext-400-normal.1e2b9039d9ecdbea5d80.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/ep/static/media/inter-vietnamese-400-normal.5952d3d3c5df5a2f8e09.woff2",
     "index.html": "/ep/index.html",
-    "main.364584a7.css.map": "/ep/static/css/main.364584a7.css.map",
-    "main.6dc4e0fc.js.map": "/ep/static/js/main.6dc4e0fc.js.map"
+    "main.7dc62cdb.css.map": "/ep/static/css/main.7dc62cdb.css.map",
+    "main.919870c2.js.map": "/ep/static/js/main.919870c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.364584a7.css",
-    "static/js/main.6dc4e0fc.js"
+    "static/css/main.7dc62cdb.css",
+    "static/js/main.919870c2.js"
   ]
 }
