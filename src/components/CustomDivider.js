@@ -5,7 +5,7 @@ function CustomDivider() {
     return (
         <Box sx={{
             m: '2em',
-            mt: '3em'
+            mt: '3.5em'
         }}>
             <Divider sx={{
                 height: '0.5px',

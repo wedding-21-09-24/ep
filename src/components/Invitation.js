@@ -7,10 +7,13 @@ function Invitation() {
             m: '2em',
             mt: '1em'
         }}>
-            <Typography className="fontHandwrite">
+            <Typography className="fontRegular">
                 Приглашаем вас на свадьбу!
             </Typography>
-            <Typography className="fontHeader">
+            <Typography className="fontRegular">
+                Москва, LOFT HALL
+            </Typography>
+            <Typography className="fontRegular">
                 21 сентября 2024
             </Typography>
             <Box sx={{

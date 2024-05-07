@@ -14,19 +14,11 @@ function GuestForm() {
     const [vodka, setVodka] = useState(false);
     const [whiskey, setWhiskey] = useState(false);
     const [cognac, setCognac] = useState(false);
+    const [noAlcohol, setNoAlcohol] = useState(false);
 
     function handleSubmit(event) {
         event.preventDefault();
-        console.log('FullName:', fullName,
-            'Presence: ', presence,
-            'Allergy: ', allergy,
-            'WhiteWine: ', whiteWine,
-            'RedWine: ', redWine,
-            'Champagne: ', champagne,
-            'Vodka: ', vodka,
-            'Whiskey: ', whiskey,
-            'Cognac: ', cognac
-        );
+
         setFullName('');
         setPresence('');
         setAllergy('');
@@ -36,6 +28,7 @@ function GuestForm() {
         setVodka(false);
         setWhiskey(false);
         setCognac(false);
+        setNoAlcohol(false);
         setFormIsHidden(true)
 
         const googleFormUrl = prepareGoogleFormUrl();
@@ -63,6 +56,7 @@ function GuestForm() {
         drinksAnswer.set("Водка", vodka);
         drinksAnswer.set("Виски", whiskey);
         drinksAnswer.set("Коньяк", cognac);
+        drinksAnswer.set("Б/А+напитки", noAlcohol);
 
         let result = "";
         drinksAnswer.forEach((answer, drink) => {
@@ -166,6 +160,10 @@ function GuestForm() {
                                 <Checkbox label="Коньяк"
                                           checked={cognac}
                                           onChange={e => setCognac(e.target.checked)}
+                                          size="lg"/>
+                                <Checkbox label="Б/А напитки"
+                                          checked={noAlcohol}
+                                          onChange={e => setNoAlcohol(e.target.checked)}
                                           size="lg"/>
                             </Stack>
                         </FormGroup>

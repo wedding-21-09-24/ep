@@ -10,6 +10,18 @@ body {
     url("./fonts/ShlapakScript.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "GilroyMedium";
+    src: local("GilroyMedium"),
+    url("./fonts/GilroyMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GilroyLight";
+    src: local("GilroyLight"),
+    url("./fonts/GilroyLight.ttf") format("truetype");
+}
+
 .fontHandwrite {
     text-align: center;
     font-size: 2rem !important;
@@ -22,14 +34,14 @@ body {
     font-size: 20px !important;
     font-weight: bold !important;
     margin-bottom: 1rem !important;
-    font-family: Helvetica, sans-serif !important;
+    font-family: "GilroyMedium", sans-serif !important;
 }
 
 .fontRegular {
     text-align: center;
     font-size: 17px !important;
     margin-bottom: 1rem !important;
-    font-family: Helvetica, sans-serif !important;
+    font-family: "GilroyLight", sans-serif !important;
 
     font-weight: 300 !important;
     line-height: 19.55px !important;
@@ -40,7 +52,7 @@ body {
 .MuiRadio-label,
 .MuiCheckbox-label,
 .MuiButton-root {
-    font-family: Helvetica, sans-serif !important;
+    font-family: "GilroyMedium", sans-serif !important;
 }
 
 .MuiInput-root {
