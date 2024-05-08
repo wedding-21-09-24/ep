@@ -19,10 +19,10 @@ function Managers() {
             m: '2em',
             mt: '3em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Наши организаторы
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Если вы заблудились, опаздываете или же у вас есть креативная идея для поздравления — смело пишите этим прекрасным ребятам!
             </Typography>
             <Box

@@ -21,16 +21,16 @@ function DressCode() {
             m: '2em',
             mb: '2em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Дресс-код
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 В лучших свадебных традициях у нас есть дресс-код.
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Он необязателен. Для нас важнее, чтобы вам было комфортно.
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Но если вы придержитесь этих цветов при выборе одежды — нам будет приятно)
             </Typography>
             <Box

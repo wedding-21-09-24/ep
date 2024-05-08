@@ -9,10 +9,10 @@ function SeeLater() {
             mt: '3em'
         }}>
 
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Мы будем рады видеть вас!
             </Typography>
-            <Typography className="fontHandwrite">
+            <Typography variant="handwriteText">
                 До скорой встречи!
             </Typography>
             <Box sx = {{

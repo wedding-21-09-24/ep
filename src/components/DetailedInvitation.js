@@ -6,19 +6,19 @@ function DetailedInvitation() {
             m: '2em',
             mt: '4em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Дорогие гости!
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 В нашей жизни предстоят счастливые перемены!
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди.
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Будем рады видеть вас на нашем празднике — семейнообразующем мероприятии.
             </Typography>
-            <Typography className="fontHandwrite">
+            <Typography variant="handwriteText">
                 С любовью, Екатерина и Павел.
             </Typography>
         </Box>

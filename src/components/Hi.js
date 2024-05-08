@@ -17,7 +17,7 @@ function Hi() {
             pt: '1em',
             pb: '1em',
         }}>
-            <Typography className="fontHandwrite" sx={{
+            <Typography variant="handwriteText" sx={{
                 color: 'white'
             }}>
                 Привет!

@@ -9,10 +9,10 @@ function Location() {
             m: '2em',
             mt: '3em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                Локация
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Наша свадьба будет проходить по адресу: <Link target="_blank" href="https://yandex.ru/profile/56637267280">г. Москва, 2-й Кожуховский пр., 29, корп. 6</Link>
             </Typography>
             <Box

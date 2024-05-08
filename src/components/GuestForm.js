@@ -77,10 +77,10 @@ function GuestForm() {
             m: '2em',
             mt: '3em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Анкета гостя
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Ваши ответы на вопросы очень помогут нам при организации свадьбы
             </Typography>
             <form onSubmit={handleSubmit} hidden={formIsHidden}>
@@ -94,7 +94,7 @@ function GuestForm() {
                         width: '100%'
                     }}>
                         <FormGroup>
-                            <Typography className="fontRegular"
+                            <Typography variant="regularText"
                                         sx={{
                                             textAlign: "left"
                                         }}>Имя Фамилия</Typography>
@@ -106,7 +106,7 @@ function GuestForm() {
                             }}/>
                         </FormGroup>
                         <FormGroup>
-                            <Typography className="fontRegular"
+                            <Typography variant="regularText"
                                         sx={{
                                             textAlign: "left"
                                         }}>Присутствие</Typography>
@@ -122,7 +122,7 @@ function GuestForm() {
                             </FormControl>
                         </FormGroup>
                         <FormGroup>
-                            <Typography className="fontRegular"
+                            <Typography variant="regularText"
                                         sx={{
                                             textAlign: "left"
                                         }}>Есть ли аллергия, диета или особое требование к меню?</Typography>
@@ -131,7 +131,7 @@ function GuestForm() {
                                    size="lg"/>
                         </FormGroup>
                         <FormGroup>
-                            <Typography className="fontRegular"
+                            <Typography variant="regularText"
                                         sx={{
                                             textAlign: "left"
                                         }}>Предпочтения по напиткам</Typography>
@@ -179,7 +179,7 @@ function GuestForm() {
                 </Box>
             </form>
             <Box hidden={!formIsHidden}>
-                <Typography className="fontHeader">
+                <Typography variant="headerText">
                     Спасибо за ответы!
                 </Typography>
                 <Button

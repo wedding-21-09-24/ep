@@ -8,28 +8,28 @@ function Details() {
             m: '2em',
             mt: '3em'
         }}>
-            <Typography className="fontHandwrite">
+            <Typography variant="handwriteText">
                 Details
             </Typography>
             <Typography className="fontHeader">
                 Подарки
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить наши мечты!
             </Typography>
-            <Typography className="fontHeader">
+            <Typography variant="regularText">
                 Цветы
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Практически сразу же после торжества мы улетаем в свадебное путешествие и не успеем уделить должное внимание цветам.
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Но мы любим сухое вино и виниловые пластинки!
             </Typography>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 «Горько»
             </Typography>
-            <Typography className="fontRegular">
+            <Typography variant="regularText">
                 Мы ребята стеснительные и будем благодарны, если вы воздержитесь от криков «Горько» на празднике, ведь поцелуй — это знак выражения чувств, он не может быть по заказу.
             </Typography>
             <Box sx = {{

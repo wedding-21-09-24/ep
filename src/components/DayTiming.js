@@ -25,7 +25,7 @@ function DayTiming() {
             m: '2em',
             mt: '3em'
         }}>
-            <Typography className="fontHeader">
+            <Typography variant="headerText">
                 Программа дня
             </Typography>
             {events.map((event) => (
@@ -39,17 +39,17 @@ function DayTiming() {
                     borderRadius: '8px',
                     boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
                 }}>
-                    <Typography className="fontHeader">
+                    <Typography variant="headerText">
                         {event.time}
                     </Typography>
-                    <Typography className="fontRegular" sx={{
+                    <Typography variant="regularText" sx={{
                         fontSize: '17px !important',
                         fontWeight: '700 !important',
                         lineHeight: '19.62px !important'
                     }}>
                         {event.title}
                     </Typography>
-                    <Typography className="fontRegular" sx={{
+                    <Typography variant="regularText" sx={{
                         fontSize: '15px !important'
                     }}>
                         {event.description}
