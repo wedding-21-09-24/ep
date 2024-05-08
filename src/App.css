@@ -1,0 +1,30 @@
+body {
+    display: block;
+    margin: 0 auto !important;
+    max-width: 600px;
+}
+
+@font-face {
+    font-family: "ShlapakScript";
+    src: local("ShlapakScript"),
+    url("./fonts/ShlapakScript.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: local("GilroyMedium"),
+    url("./fonts/GilroyMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GilroyLight";
+    src: local("GilroyLight"),
+    url("./fonts/GilroyLight.ttf") format("truetype");
+}
+
+.MuiRadio-radio {
+    border-color: black !important;
+}
+.MuiCheckbox-checkbox {
+    border-color: black !important;
+}
