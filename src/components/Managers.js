@@ -1,65 +1,51 @@
-import {Box, Card, CardContent, CardCover, Typography} from "@mui/joy";
+import {Box, Card, CardContent, CardCover, Link, Typography} from "@mui/joy";
 import SmartphoneOutlinedIcon from '@mui/icons-material/SmartphoneOutlined';
 import * as React from "react";
-import managerPhoto1 from "../images/manager-photo-1.jpg";
-import managerPhoto2 from "../images/manager-photo-2.jpg";
 
 function Managers() {
     const managers = [{
-        "name": "Лиам Ниссон (организатор свадьбы)",
-        "phone": "+7(926)325-34-43",
-        "photo": `${managerPhoto1}`
-    }, {
-        "name": "Оливия Уайлд (координатор)",
-        "phone": "+7(963)334-53-35",
-        "photo": `${managerPhoto2}`
+        "name": "Агентство Донцов-Фэмели",
+        "phone": "+7(993)700-39-75"
+    },
+        {
+        "name": "Наталья (координатор)",
+        "phone": "+7(977)731-16-84"
     }]
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px'
         }}>
             <Typography variant="headerText">
                 Наши организаторы
             </Typography>
             <Typography variant="regularText">
-                Если вы заблудились, опаздываете или же у вас есть креативная идея для поздравления — смело пишите этим прекрасным ребятам!
+                Если вы заблудились, опаздываете или же у вас есть креативная идея для поздравления — смело пишите этим
+                прекрасным ребятам!
             </Typography>
-            <Box
-                component="ul"
-                justifyContent="center"
-                alignItems="center"
-                sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
-            >
-                {managers.map((manager) => (
-                    <Card sx={{ minHeight: '460px', width: 320 }}>
-                        <CardCover>
-                            <img
-                                src={manager.photo}
-                                loading="lazy"
-                                alt=""
-                            />
-                        </CardCover>
-                        <CardCover
-                            sx={{
-                                background:
-                                    'linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0) 300px)',
-                            }}
-                        />
-                        <CardContent sx={{ justifyContent: 'flex-end' }}>
-                            <Typography level="title-lg" textColor="#fff">
-                                {manager.name}
-                            </Typography>
-                            <Typography
-                                startDecorator={<SmartphoneOutlinedIcon />}
-                                textColor="neutral.300"
-                            >
-                                {manager.phone}
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                ))}
-            </Box>
+            {managers.map((manager) => (
+                <>
+                    <Typography variant="regularText" sx={{
+                        fontSize: '17px',
+                        fontWeight: '700',
+                        lineHeight: '19.62px',
+                        mb: '8px'
+                    }}>
+                        {manager.name}
+                    </Typography>
+                    <Typography variant="regularText">
+                        <Link
+                            color="neutral"
+                            underline="always"
+                            href={"tel:" + manager.phone}
+                              startDecorator={<SmartphoneOutlinedIcon/>}
+                        >
+                            {manager.phone}
+                        </Link>
+                    </Typography>
+                </>
+            ))}
         </Box>
     );
 }

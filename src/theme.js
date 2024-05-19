@@ -8,7 +8,7 @@ const customTheme = extendTheme({
                     ...((ownerState.variant === 'regularText' && {
                             textAlign: 'center',
                             fontSize: '17px',
-                            marginBottom: '1rem',
+                            marginBottom: '17px',
                             fontFamily: 'GilroyLight, sans-serif',
                             fontWeight: '300',
                             lineHeight: '19.55px',
@@ -18,14 +18,14 @@ const customTheme = extendTheme({
                             textAlign: 'center',
                             fontSize: '20px',
                             fontWeight: 'bold',
-                            marginBottom: '1rem',
+                            marginBottom: '17px',
                             fontFamily: 'GilroyLight, sans-serif',
                             color: 'black'
                         })),
                     ...((ownerState.variant === 'handwriteText' && {
                             textAlign: 'center',
-                            fontSize: '2rem',
-                            marginBottom: '1rem',
+                            fontSize: '32px',
+                            marginBottom: '16px',
                             fontFamily: 'ShlapakScript, sans-serif',
                             color: 'black'
                         })),
@@ -40,6 +40,13 @@ const customTheme = extendTheme({
             },
         },
         JoyRadio: {
+            styleOverrides: {
+                root: {
+                    fontFamily: 'GilroyLight, sans-serif'
+                },
+            },
+        },
+        JoyCheckbox: {
             styleOverrides: {
                 root: {
                     fontFamily: 'GilroyLight, sans-serif'

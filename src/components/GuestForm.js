@@ -74,8 +74,9 @@ function GuestForm() {
 
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px'
         }}>
             <Typography variant="headerText">
                 Анкета гостя
@@ -89,7 +90,7 @@ function GuestForm() {
                      alignItems="center"
                 >
                     <FormGroup sx={{
-                        mt: '2em',
+                        mt: '20px',
                         gap: 5,
                         width: '100%'
                     }}>

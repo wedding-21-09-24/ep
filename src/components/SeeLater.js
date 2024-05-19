@@ -5,18 +5,16 @@ import seeLaterImage from "../images/see-later.jpg";
 function SeeLater() {
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px',
+            mb: '32px'
         }}>
-
-            <Typography variant="headerText">
-                Мы будем рады видеть вас!
-            </Typography>
             <Typography variant="handwriteText">
                 До скорой встречи!
             </Typography>
             <Box sx = {{
-                mt: '2em',
+                mt: '32px',
                 backgroundImage: `url(${seeLaterImage})`,
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',

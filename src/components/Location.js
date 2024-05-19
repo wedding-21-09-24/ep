@@ -6,8 +6,9 @@ function Location() {
     const images = [`${locationImage3}`]
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px'
         }}>
             <Typography variant="headerText">
                Локация
