@@ -3,8 +3,9 @@ import {Box, Typography} from "@mui/joy";
 function DetailedInvitation() {
     return (
         <Box sx={{
-            m: '2em',
-            mt: '4em'
+            ml: '32px',
+            mr: '32px',
+            mt: '60px'
         }}>
             <Typography variant="headerText">
                 Дорогие гости!

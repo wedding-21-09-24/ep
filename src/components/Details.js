@@ -5,19 +5,17 @@ import detailsImage from "../images/details.jpg";
 function Details() {
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px'
         }}>
-            <Typography variant="handwriteText">
-                Details
-            </Typography>
-            <Typography className="fontHeader">
+            <Typography  variant="headerText">
                 Подарки
             </Typography>
             <Typography variant="regularText">
                 Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить наши мечты!
             </Typography>
-            <Typography variant="regularText">
+            <Typography variant="headerText">
                 Цветы
             </Typography>
             <Typography variant="regularText">
@@ -33,7 +31,7 @@ function Details() {
                 Мы ребята стеснительные и будем благодарны, если вы воздержитесь от криков «Горько» на празднике, ведь поцелуй — это знак выражения чувств, он не может быть по заказу.
             </Typography>
             <Box sx = {{
-                mt: '2em',
+                mt: '32px',
                 backgroundImage: `url(${detailsImage})`,
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',

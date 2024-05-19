@@ -18,8 +18,9 @@ function DressCode() {
 
     return (
         <Box sx={{
-            m: '2em',
-            mb: '2em'
+            ml: '32px',
+            mr: '32px',
+            mt: '40px'
         }}>
             <Typography variant="headerText">
                 Дресс-код
@@ -38,15 +39,15 @@ function DressCode() {
                 justifyContent="center"
                 alignItems="center"
                 sx={{
-                    display: 'flex', gap: 1, flexWrap: 'wrap', p: 0,
+                    display: 'flex', gap: 0.75, flexWrap: 'wrap', p: 0,
                     m: 0,
-                    mt: '2em'
+                    mt: '32px'
                 }}
             >
                 {colors.map((colorItem) => (
                     <Card
                         sx={{
-                            width: 50, height: 50,
+                            width: 48, height: 48,
                             backgroundColor: `${colorItem}`
                         }}>
                     </Card>

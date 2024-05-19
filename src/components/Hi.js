@@ -14,8 +14,8 @@ function Hi() {
             backgroundSize: 'contain',
             backgroundPosition: 'center bottom',
             height: `${heightImage}px`,
-            pt: '1em',
-            pb: '1em',
+            pt: '16px',
+            pb: '16px',
         }}>
             <Typography variant="handwriteText" sx={{
                 color: 'white'

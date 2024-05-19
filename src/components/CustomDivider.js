@@ -4,8 +4,9 @@ import * as React from "react";
 function CustomDivider() {
     return (
         <Box sx={{
-            m: '2em',
-            mt: '3.5em'
+            ml: '32px',
+            mr: '32px',
+            mt: '55px'
         }}>
             <Divider sx={{
                 height: '0.5px',
