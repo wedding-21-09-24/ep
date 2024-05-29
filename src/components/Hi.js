@@ -5,11 +5,11 @@ import useWindowDimensions from "../hooks/useWindowDimensions";
 
 function Hi() {
     const { height, width } = useWindowDimensions();
-    const heightImage = 0.7 * height;
+    const heightImage = 0.75 * height;
     return (
         <Box sx={{
             backgroundImage: `url(${hiImage})`,
-            backgroundColor: 'black',
+            backgroundColor: 'rgb(4, 4, 4)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
             backgroundPosition: 'center bottom',
@@ -17,11 +17,6 @@ function Hi() {
             pt: '16px',
             pb: '16px',
         }}>
-            <Typography variant="handwriteText" sx={{
-                color: 'white'
-            }}>
-                Привет!
-            </Typography>
         </Box>
     );
 }

@@ -79,9 +79,7 @@ function divider() {
     return (
         <Divider sx={{
             ml: '50px',
-            mr: '50px',
-            height: '0.5px',
-            backgroundColor: 'black'
+            mr: '50px'
         }}/>
     )
 }
