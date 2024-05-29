@@ -6,19 +6,18 @@ function Invitation() {
         <Box sx={{
             ml: '32px',
             mr: '32px',
-            mt: '40px'
+            mt: '20px'
         }}>
-            <Typography variant="regularText">
-                Приглашаем вас на свадьбу!
+            <Typography variant="regularText" sx={{
+                mb: '2px'
+            }}>
+                21 сентября 2024
             </Typography>
             <Typography variant="regularText">
                 Москва, LOFT HALL
             </Typography>
-            <Typography variant="regularText">
-                21 сентября 2024
-            </Typography>
             <Box sx={{
-                mt: '2rem'
+                mt: '20px'
             }}>
                 <AddToCalendar/>
             </Box>

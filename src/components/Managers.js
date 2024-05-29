@@ -3,14 +3,14 @@ import SmartphoneOutlinedIcon from '@mui/icons-material/SmartphoneOutlined';
 import * as React from "react";
 
 function Managers() {
-    const managers = [{
-        "name": "Агентство Донцов-Фэмели",
-        "phone": "+7(993)700-39-75"
-    },
+    const managers = [
         {
-        "name": "Наталья (координатор)",
-        "phone": "+7(977)731-16-84"
-    }]
+            "name": "Наталья (координатор)",
+            "phone": "+7(977)731-16-84"
+        }, {
+            "name": "Агентство Донцов-Фэмели",
+            "phone": "+7(993)700-39-75"
+        }]
     return (
         <Box sx={{
             ml: '32px',
@@ -39,7 +39,7 @@ function Managers() {
                             color="neutral"
                             underline="always"
                             href={"tel:" + manager.phone}
-                              startDecorator={<SmartphoneOutlinedIcon/>}
+                            startDecorator={<SmartphoneOutlinedIcon/>}
                         >
                             {manager.phone}
                         </Link>
